@@ -1,0 +1,21 @@
+{
+  "name": "atis_bot",
+  "version": "1.0.0",
+  "description": "Bot that provides ATIS and METAR information service for my Discord server",
+  "main": "bot.node.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node bot.node.js"
+  },
+  "engines": {
+    "node": "10.15.0",
+    "npm": "*"
+  },
+  "author": "David Feng",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^11.5.1",
+    "ffmpeg-binaries": "^4.0.0",
+    "request": "^2.88.0"
+  }
+}
