@@ -1,0 +1,71 @@
+{
+    "kmia": [
+        "Miami International Airport",
+        "http://d.liveatc.net/kmia3_atis_arr",
+        "http://d.liveatc.net/kmia3_atis_dep"
+    ],
+    "katl": [
+        "Atlanta Hartsfield-Jackson International Airport",
+        "http://d.liveatc.net/katl_atis_arr",
+        "http://d.liveatc.net/katl_atis_dep"
+    ],
+    "klax": [
+        "Los Angeles International Airport",
+        "http://d.liveatc.net/klax4n_atis_arr",
+        "http://d.liveatc.net/klax4n_atis_dep"
+    ],
+    "kdfw": [
+        "Dallas/Fort Worth International Airport",
+        "http://d.liveatc.net/kdfw1_atis_arr"
+    ],
+    "kjfk": [
+        "John F Kennedy International Airport",
+        "http://d.liveatc.net/kjfk_atis"
+    ],
+    "ksfo": [
+        "San Francisco International Airport",
+        "http://d.liveatc.net/ksfo_atis"
+    ],
+    "klas": [
+        "McCarran International Airport",
+        "http://d.liveatc.net/klas5_atis"
+    ],
+    "kewr": [
+        "Newark Liberty International Airport",
+        "http://d.liveatc.net/kewr3_atis"
+    ],
+    "kmco": [
+        "Orlando International Airport",
+        "http://d.liveatc.net/kmco7"
+    ],
+    "kiah": [
+        "Houston George Bush Intercontinental Airport",
+        "http://d.liveatc.net/kiah2_atis_main",
+        "http://d.liveatc.net/kiah2_atis_const"
+    ],
+    "kmsp": [
+        "Minneapolis St.Paul International Airport",
+        "http://d.liveatc.net/kmsp4_atis_arr",
+        "http://d.liveatc.net/kmsp3_atis_dep"
+    ],
+    "kfll": [
+        "Hollywood International Airport",
+        "http://d.liveatc.net/kfll1_atis"
+    ],
+    "klga": [
+        "LaGuardia Airport",
+        "http://d.liveatc.net/klga_atis_dep"
+    ],
+    "kbwi": [
+        "Baltimore/Washington International Airport",
+        "http://d.liveatc.net/kbwi1_pi_atis"
+    ],
+    "kmdw": [
+        "Chicago Midway International Airport",
+        "http://d.liveatc.net/kmdw_4"
+    ],
+    "kjax": [
+        "Jacksonville International Airport",
+        "http://d.liveatc.net/kjax_atis"
+    ]
+}

@@ -1,6 +1,6 @@
 {
   "name": "atis_bot",
-  "version": "1.0.0",
+  "version": "1.2.0",
   "description": "Bot that provides ATIS and METAR information service for my Discord server",
   "main": "bot.node.js",
   "scripts": {
@@ -17,7 +17,7 @@
     "discord.js": "^11.5.1",
     "dotenv": "^8.2.0",
     "ffmpeg-binaries": "^4.0.0",
-    "request": "^2.88.0"
+    "node-opus": "^0.3.3"
   },
   "devDependencies": {},
   "keywords": []
