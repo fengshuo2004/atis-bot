@@ -67,5 +67,67 @@
     "kjax": [
         "Jacksonville International Airport",
         "http://d.liveatc.net/kjax_atis"
+    ],
+    "kash": [
+        "Nashua Boire Field Airport",
+        "http://d.liveatc.net/kash_atis",
+        "http://d.liveatc.net/kash_murp_atis2"
+    ],
+    "rjtt": [
+        "Tokyo Haneda International Airport",
+        "http://d.liveatc.net/rjtt_atis"
+    ],
+    "cyqb": [
+        "Quebec City Jean Lesage International Airport",
+        "http://d.liveatc.net/cyqb1_atis_en",
+        "http://d.liveatc.net/cyqb2_atis_en"
+    ],
+    "lhbp": [
+        "Budapest Ferihegy International Airport ",
+        "http://d.liveatc.net/lhbp_atis"
+    ],
+    "ksfb": [
+        "Orlando Sanford International Airport",
+        "http://d.liveatc.net/ksfb3_atis"
+    ],
+    "kttd": [
+        "Portland-Troutdale Airport",
+        "http://d.liveatc.net/kttd1_atis"
+    ],
+    "ybtl": [
+        "Townsville Airport",
+        "http://d.liveatc.net/ybtl1_atis"
+    ],
+    "ehgg": [
+        "Groningen Airport Eelde",
+        "http://d.liveatc.net/ehgg1_atis"
+    ],
+    "ktmb": [
+        "Kendall-Tamiami Executive Airport",
+        "http://d.liveatc.net/ktmb1_atis"
+    ],
+    "lwsk": [
+        "Petrovec Skopje Airport",
+        "http://d.liveatc.net/lwsk2_atis"
+    ],
+    "kdal": [
+        "Dallas Love Field Airport",
+        "http://d.liveatc.net/kdal_atis"
+    ],
+    "kmht": [
+        "Manchester Airport",
+        "http://d.liveatc.net/kmht_atis"
+    ],
+    "cyyz": [
+        "Toronto Lester B. Pearson International Airport",
+        "http://d.liveatc.net/cyyz3"
+    ],
+    "ehbk": [
+        "Maastricht Aachen Airport",
+        "http://d.liveatc.net/ehbk1_atis"
+    ],
+    "kpvd": [
+        "Theodore Francis Green State Airport",
+        "http://d.liveatc.net/kpvd_atis"
     ]
 }
