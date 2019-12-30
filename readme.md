@@ -1,6 +1,8 @@
 # ATIS Bot for Discord
 
-> This documentation is imcomplete and a work-in-progress
+> This documentation is imcomplete and still a work-in-progress
+
+![screenshot](/img/example.png)
 
 A Discord bot that fetches aviation
 
@@ -12,7 +14,7 @@ Information from various sources and allow them to be queried by users.
 
 *= Not yet implemented
 
-**Made by Davie Feng in 2019**
+**Made by Davie Feng in 2019-2020**
 
 ## Legals
 

@@ -37,7 +37,18 @@ function help(ctx) {
     sendEmbed(ctx, 2, ":bulb: **Help** for using this ATIS bot:",
         `• Type \`${PF}atis <ICAO code>\` to listen to the ATIS live frequency at your specified airport\n` +
         `• Type \`${PF}metar <ICAO code>\` to receive the lastest METAR weather report of that airport\n` +
-        `• Type \`${PF}atis stop\` to stop the current ATIS frequency stream`);
+        `• Type \`${PF}atis stop\` to stop playing the current ATIS frequency stream\n` + 
+        `• Type \`${PF}about\` to learn about this software`);
+}
+
+function about(ctx){
+    sendEmbed(ctx, 2,":information_source: **About** ATIS Bot",
+`An aviation information fetcher for Discord servers, powered by NodeJS
+Copyright \u00a9 2019-2020  David Feng
+The source code of this software is published on Github: https://github.com/fengshuo2004/atis-bot
+
+> This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or any later version.
+> This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details.`);
 }
 
 function atis(ctx, args) {
@@ -86,6 +97,10 @@ function atis(ctx, args) {
 }
 
 function metar(ctx, args) {
+    if (!args[0]){ // no parameter passed
+        sendEmbed(ctx, 2, ":mag: Please provide an airport ICAO code", `For example, to query METAR of Tokyo Haneda International Airport, type \`${PF}metar rjtt\`.`);
+        return;
+    }
     getMetar(args[0]).then(
         function (metar) { // handle a successful request
             if (metar.results == 0) { // no result :-(
@@ -137,7 +152,8 @@ function metar(ctx, args) {
 var commands = {
     "help": help,
     "atis": atis,
-    "metar": metar
+    "metar": metar,
+    "about": about
 }
 
 function main(message) { // onMessage event handler
